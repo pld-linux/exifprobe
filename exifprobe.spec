@@ -1,12 +1,12 @@
 Summary:	JPEG/TIFF image probe
 Summary(pl):	Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
-Version:	1.2.4
+Version:	1.2.5
 Release:	1
 License:	BSD
 Group:		Applications/Multimedia
 Source0:	http://www.monroe.net/~dhh/exifprobe.d/%{name}-%{version}.tar.gz
-# Source0-md5:	e10f72205e805928102fdcf44c508a64
+# Source0-md5:	0c4b2103cf04ca66bf48707ae89db8d5
 URL:		http://www.monroe.net/~dhh/exifprobe.d/exifprobe.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
