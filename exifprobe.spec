@@ -1,12 +1,12 @@
 Summary:	JPEG/TIFF image probe
 Summary(pl):	Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
-Version:	1.2.6
+Version:	2.0.1
 Release:	1
 License:	BSD
 Group:		Applications/Multimedia
 Source0:	http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/%{name}-%{version}.tar.gz
-# Source0-md5:	187ac0389abcaf93a40c6b8199169b4c
+# Source0-md5:	3aa2ba4baa6d60c72fb8a4b9b6341c4c
 URL:		http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -37,7 +37,7 @@ rozwijane. Podawane jest po³o¿enie, rozmiar i format danych obrazu.
 %build
 %{__make} \
 	CC=%{__cc} \
-	CFLAGS="%{rpmcflags} -DCOLOR -Wall -Wno-unused -Wno-parentheses -Wno-trigraphs"
+	CFLAGS="%{rpmcflags} -Wall -Wno-unused -Wno-parentheses -Wno-trigraphs"
 
 %install
 rm -rf $RPM_BUILD_ROOT
