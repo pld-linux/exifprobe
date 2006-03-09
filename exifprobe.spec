@@ -36,7 +36,7 @@ rozwijane. Podawane jest po³o¿enie, rozmiar i format danych obrazu.
 
 %build
 %{__make} \
-	CC=%{__cc} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -Wall -Wno-unused -Wno-parentheses -Wno-trigraphs"
 
 %install
