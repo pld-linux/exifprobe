@@ -1,5 +1,5 @@
 Summary:	JPEG/TIFF image probe
-Summary(pl.UTF-8):   Sprawdzanie informacji o obrazach JPEG/TIFF
+Summary(pl.UTF-8):	Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
 Version:	2.0.1
 Release:	1
