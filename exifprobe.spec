@@ -1,5 +1,5 @@
 Summary:	JPEG/TIFF image probe
-Summary(pl):	Sprawdzanie informacji o obrazach JPEG/TIFF
+Summary(pl.UTF-8):   Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
 Version:	2.0.1
 Release:	1
@@ -21,15 +21,15 @@ IFD format. GPS and GeoTIFF tags are recognized and entries printed in
 "raw" form, but are not expanded. Location, size, and format of image
 data is reported.
 
-%description -l pl
-Exifprobe sprawdza i podaje zawarto¶æ i strukturê plików obrazów JPEG
-i TIFF. Rozpoznaje wszystkie standardowe znaczniki JPEG (w³±cznie z
-APPn) i podaje zawarto¶æ ka¿dego prawid³owo zbudowanego TIFF IFD,
-nawet je¶li nie rozpoznano znaczników. Rozpoznawane znaczniki TIFF i
-TIFF/EP s± rozwijane, w tym sekcje EXIT2.2 i MakerNotes z aparatów,
-które mo¿na znale¼æ w plikach w formacie TIFF IFD. Znaczniki GPS i
-GeoTIFF s± rozpoznawane i wypisywane w postaci surowej, ale nie
-rozwijane. Podawane jest po³o¿enie, rozmiar i format danych obrazu.
+%description -l pl.UTF-8
+Exifprobe sprawdza i podaje zawartoÅ›Ä‡ i strukturÄ™ plikÃ³w obrazÃ³w JPEG
+i TIFF. Rozpoznaje wszystkie standardowe znaczniki JPEG (wÅ‚Ä…cznie z
+APPn) i podaje zawartoÅ›Ä‡ kaÅ¼dego prawidÅ‚owo zbudowanego TIFF IFD,
+nawet jeÅ›li nie rozpoznano znacznikÃ³w. Rozpoznawane znaczniki TIFF i
+TIFF/EP sÄ… rozwijane, w tym sekcje EXIT2.2 i MakerNotes z aparatÃ³w,
+ktÃ³re moÅ¼na znaleÅºÄ‡ w plikach w formacie TIFF IFD. Znaczniki GPS i
+GeoTIFF sÄ… rozpoznawane i wypisywane w postaci surowej, ale nie
+rozwijane. Podawane jest poÅ‚oÅ¼enie, rozmiar i format danych obrazu.
 
 %prep
 %setup -q
