@@ -2,7 +2,7 @@ Summary:	JPEG/TIFF image probe
 Summary(pl.UTF-8):	Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
 Version:	2.0.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/Multimedia
 Source0:	http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/%{name}-%{version}.tar.gz
