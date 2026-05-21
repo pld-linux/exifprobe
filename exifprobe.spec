@@ -2,7 +2,7 @@ Summary:	JPEG/TIFF image probe
 Summary(pl.UTF-8):	Sprawdzanie informacji o obrazach JPEG/TIFF
 Name:		exifprobe
 Version:	2.0.1
-Release:	2
+Release:	3
 License:	BSD
 Group:		Applications/Multimedia
 Source0:	http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/%{name}-%{version}.tar.gz
@@ -37,7 +37,7 @@ rozwijane. Podawane jest położenie, rozmiar i format danych obrazu.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -Wall -Wno-unused -Wno-parentheses -Wno-trigraphs"
+	CFLAGS="%{rpmcflags} %{rpmcppflags} %{rpmldflags} -std=gnu17 -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
